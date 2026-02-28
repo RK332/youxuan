@@ -47,9 +47,3 @@ youxuanshop/
 └── pages.json      # 页面配置
 ```
 
-## 开发说明
-
-- 项目使用Vuex进行全局状态管理
-- 使用uView UI组件库快速构建界面
-- 支持easycom自动导入组件
-- 使用SCSS进行样式预处理
