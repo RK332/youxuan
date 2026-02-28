@@ -25,8 +25,8 @@ uni-app商城，优选商城
 - ✅ 消息中心
 - ✅ 设置中心
 ## 项目截图
-   screenshots/home.png 
-   screenshots/cate.png 
+   （screenshots/home.png）
+   （screenshots/cate.png）
    screenshots/goods.png
    screenshots/cart.png 
    screenshots/profile.png 
