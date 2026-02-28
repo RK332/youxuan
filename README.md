@@ -25,7 +25,10 @@ uni-app商城，优选商城
 - ✅ 消息中心
 - ✅ 设置中心
 ## 项目截图
-
+   | ![首页](screenshots/home.png) |
+   ![购物车](screenshots/cart.png) |
+   ![商品详情](screenshots/goods.png) | 
+   ![个人中心](screenshots/profile.png) |
 ## 项目结构
 
 ```
