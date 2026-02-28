@@ -1,0 +1,267 @@
+{
+	"easycom": {
+	        // 下载安装的方式需要前面的"@/"，npm安装的方式无需"@/"
+	        // 下载安装方式
+	        "^u-(.*)": "@/uview-ui/components/u-$1/u-$1.vue"
+	        // npm安装方式
+	        // "^u-(.*)": "uview-ui/components/u-$1/u-$1.vue"
+	    },
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/index/index",
+			"style": {
+				
+			}
+		}
+	    ,{
+            "path" : "pages/category/category",
+            "style" :                                                                                    
+            {
+                
+            }
+            
+        }
+        ,{
+            "path" : "pages/optimization/optimization",
+            "style" :                                                                                    
+            {
+                
+				"enablePullDownRefresh":true
+				
+            }
+            
+        }
+        ,{
+            "path" : "pages/cart/cart",
+            "style" :                                                                                    
+            {
+                
+            }
+            
+        }
+        ,{
+            "path" : "pages/my/my",
+            "style" :                                                                                    
+            {
+                
+            }
+            
+        }
+        ,{
+            "path" : "pages/login/login",
+            "style" :                                                                                    
+            {
+                
+            }
+            
+        }
+        ,{
+            "path" : "pages/order/order",
+            "style" :                                                                                    
+            {
+                
+            }
+            
+        }
+        ,{
+            "path" : "pages/collect/collect",
+            "style" :                                                                                    
+            {
+                
+            }
+            
+        }
+        ,{
+            "path" : "pages/coupon/coupon",
+            "style" :                                                                                    
+            {
+                
+            }
+            
+        }
+        ,{
+            "path" : "pages/address/address",
+            "style" :                                                                                    
+            {
+                
+            }
+            
+        }
+        ,{
+            "path" : "pages/addressAdd/addressAdd",
+            "style" :                                                                                    
+            {
+                
+            }
+            
+        }
+        ,{
+            "path" : "pages/addressEdit/addressEdit",
+            "style" :                                                                                    
+            {
+                
+            }
+            
+        }
+        ,{
+            "path" : "pages/aboutUs/aboutUs",
+            "style" :                                                                                    
+            {
+                
+            }
+            
+        }
+        ,{
+            "path" : "pages/setting/setting",
+            "style" :                                                                                    
+            {
+                
+            }
+            
+        },
+		{
+			"path": "uview-ui/components/u-avatar-cropper/u-avatar-cropper",
+			"style": {
+				"navigationBarTitleText": "头像裁剪",
+				"navigationBarBackgroundColor": "#000000"
+			}
+		}
+        ,{
+            "path" : "pages/userInfo/userInfo",
+            "style" :                                                                                    
+            {
+                
+            }
+            
+        }
+        ,{
+            "path" : "pages/bindPhone/bindPhone",
+            "style" :                                                                                    
+            {
+                
+            }
+            
+        }
+        ,{
+            "path" : "pages/capture/capture",
+            "style" :                                                                                    
+            {
+                
+            }
+            
+        }
+        ,{
+            "path" : "pages/changePassword/changePassword",
+            "style" :                                                                                    
+            {
+                
+            }
+            
+        }
+        ,{
+            "path" : "pages/message/message",
+            "style" :                                                                                    
+            {
+                
+            }
+            
+        }
+        ,{
+            "path" : "pages/article/article",
+            "style" :                                                                                    
+            {
+                
+            }
+            
+        }
+        ,{
+            "path" : "pages/search/search",
+            "style" :                                                                                    
+            {
+                
+            }
+            
+        }
+        ,{
+            "path" : "pages/searchList/searchList",
+            "style" :                                                                                    
+            {
+                
+            }
+            
+        }
+        ,{
+            "path" : "pages/goods/goods",
+            "style" :                                                                                    
+            {
+                "app-plus":{
+					"scrollIndicator":"none",
+					"bounce":"none",
+					"titleNView":{
+						"type":"transparent",
+						"titleText":"商品详情",
+						"buttons":[
+							{
+								"type":"menu"
+							}
+						]
+					}
+				}
+            }
+            
+        }
+        ,{
+            "path" : "pages/orderConfirm/orderConfirm",
+            "style" :                                                                                    
+            {
+                
+            }
+            
+        }
+    ],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "优选商城",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8",
+		"navigationStyle":"custom"
+	},
+	"tabBar":{
+		"color":"#999999",
+		"selectedColor":"#1BBF80",
+		"borderStyle":"black",
+		"backgroundColor":"#FFFFFF",
+		"list":[
+			{
+				"pagePath":"pages/index/index",
+				"iconPath":"static/bottom/home.png",
+				"selectedIconPath":"static/bottom/homes.png",
+				"text":"首页"
+			},
+			{
+				"pagePath":"pages/category/category",
+				"iconPath":"./static/bottom/category.png",
+				"selectedIconPath":"static/bottom/categorys.png",
+				"text":"分类"
+			},
+			{
+				"pagePath":"pages/optimization/optimization",
+				"iconPath":"static/bottom/optimization.png",
+				"selectedIconPath":"static/bottom/optimizations.png",
+				"text":"优选"
+			},
+			{
+				"pagePath":"pages/cart/cart",
+				"iconPath":"static/bottom/cart.png",
+				"selectedIconPath":"static/bottom/carts.png",
+				"text":"购物车"
+			},
+			{
+				"pagePath":"pages/my/my",
+				"iconPath":"static/bottom/my.png",
+				"selectedIconPath":"static/bottom/mys.png",
+				"text":"我"
+			}
+		]
+	}
+}
